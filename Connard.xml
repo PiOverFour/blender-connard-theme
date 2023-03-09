@@ -2,341 +2,363 @@
   <Theme>
     <user_interface>
       <ThemeUserInterface
-        menu_shadow_fac="0.01"
-        menu_shadow_width="0"
-        icon_alpha="0"
-        icon_saturation="0"
+        menu_shadow_fac="0.4"
+        menu_shadow_width="2"
+        icon_alpha="1"
+        icon_saturation="0.5"
         widget_emboss="#00000000"
-        editor_outline="#000000"
-        axis_x="#000000"
-        axis_y="#000000"
-        axis_z="#000000"
-        gizmo_hi="#000000"
-        gizmo_primary="#000000"
-        gizmo_secondary="#000000"
-        gizmo_a="#000000"
-        gizmo_b="#000000"
+        editor_outline="#00000000"
+        widget_text_cursor="#00000000"
+        panel_roundness="0.0"
+        transparent_checker_primary="#00000000"
+        transparent_checker_secondary="#00000000"
+        transparent_checker_size="8"
+        axis_x="#00000000"
+        axis_y="#00000000"
+        axis_z="#00000000"
+        gizmo_hi="#00000000"
+        gizmo_primary="#00000000"
+        gizmo_secondary="#00000000"
+        gizmo_view_align="#00000000"
+        gizmo_a="#00000000"
+        gizmo_b="#00000000"
         icon_scene="#00000000"
         icon_collection="#00000000"
         icon_object="#00000000"
         icon_object_data="#00000000"
         icon_modifier="#00000000"
         icon_shading="#00000000"
+        icon_folder="#00000000"
         icon_border_intensity="0"
         >
         <wcol_regular>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
-            shadedown="-5"
-            roundness="0"
+            shadedown="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_regular>
         <wcol_tool>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_tool>
         <wcol_toolbar_item>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_toolbar_item>
         <wcol_radio>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_radio>
         <wcol_text>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_text>
         <wcol_option>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_option>
         <wcol_toggle>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_toggle>
         <wcol_num>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_num>
         <wcol_numslider>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
-            show_shaded="TRUE"
+            text="#00000000"
+            text_sel="#00000000"
+            show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_numslider>
         <wcol_box>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_box>
         <wcol_menu>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_menu>
         <wcol_pulldown>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.4"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_pulldown>
         <wcol_menu_back>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_menu_back>
         <wcol_pie_menu>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_pie_menu>
         <wcol_tooltip>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_tooltip>
         <wcol_menu_item>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_menu_item>
         <wcol_scroll>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_scroll>
         <wcol_progress>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_progress>
         <wcol_list_item>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_list_item>
+        <wcol_view_item>
+          <ThemeWidgetColors
+            outline="#00000000"
+            inner="#00000000"
+            inner_sel="#00000000"
+            item="#00000000"
+            text="#00000000"
+            text_sel="#00000000"
+            show_shaded="FALSE"
+            shadetop="0"
+            shadedown="0"
+            roundness="0.0"
+            >
+          </ThemeWidgetColors>
+        </wcol_view_item>
         <wcol_state>
           <ThemeWidgetStateColors
-            inner_anim="#000000"
-            inner_anim_sel="#000000"
-            inner_key="#000000"
-            inner_key_sel="#000000"
-            inner_driven="#000000"
-            inner_driven_sel="#000000"
-            inner_overridden="#000000"
-            inner_overridden_sel="#000000"
-            inner_changed="#000000"
-            inner_changed_sel="#000000"
-            blend="0"
+            inner_anim="#00000000"
+            inner_anim_sel="#00000000"
+            inner_key="#00000000"
+            inner_key_sel="#00000000"
+            inner_driven="#00000000"
+            inner_driven_sel="#00000000"
+            inner_overridden="#00000000"
+            inner_overridden_sel="#00000000"
+            inner_changed="#00000000"
+            inner_changed_sel="#00000000"
+            blend="0.5"
             >
           </ThemeWidgetStateColors>
         </wcol_state>
         <wcol_tab>
           <ThemeWidgetColors
-            outline="#000000"
+            outline="#00000000"
             inner="#00000000"
             inner_sel="#00000000"
             item="#00000000"
-            text="#000000"
-            text_sel="#000000"
+            text="#00000000"
+            text_sel="#00000000"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0"
+            roundness="0.0"
             >
           </ThemeWidgetColors>
         </wcol_tab>
@@ -346,96 +368,101 @@
       <ThemeView3D
         grid="#00000000"
         clipping_border_3d="#00000000"
-        wire="#000000"
-        wire_edit="#000000"
-        gp_vertex="#000000"
-        gp_vertex_select="#000000"
-        gp_vertex_size="1"
-        text_grease_pencil="#000000"
-        object_selected="#000000"
-        object_active="#000000"
-        text_keyframe="#000000"
-        camera="#000000"
-        empty="#000000"
+        wire="#00000000"
+        wire_edit="#00000000"
+        gp_vertex="#00000000"
+        gp_vertex_select="#00000000"
+        gp_vertex_size="3"
+        text_grease_pencil="#00000000"
+        object_selected="#00000000"
+        object_active="#00000000"
+        text_keyframe="#00000000"
+        camera="#00000000"
+        empty="#00000000"
         light="#00000000"
-        speaker="#000000"
-        vertex="#000000"
-        vertex_select="#000000"
-        vertex_size="1"
-        vertex_bevel="#000000"
-        vertex_unreferenced="#000000"
-        edge_select="#000000"
-        edge_seam="#000000"
-        edge_sharp="#000000"
-        edge_crease="#000000"
-        edge_bevel="#000000"
-        edge_facesel="#000000"
-        freestyle_edge_mark="#000000"
+        speaker="#00000000"
+        vertex="#00000000"
+        vertex_select="#00000000"
+        vertex_active="#00000000"
+        vertex_size="3"
+        vertex_bevel="#00000000"
+        vertex_unreferenced="#00000000"
+        edge_select="#00000000"
+        edge_seam="#00000000"
+        edge_sharp="#00000000"
+        edge_crease="#00000000"
+        edge_bevel="#00000000"
+        edge_facesel="#00000000"
+        freestyle_edge_mark="#00000000"
         face="#00000000"
         face_select="#00000000"
-        face_dot="#000000"
-        facedot_size="1"
+        face_dot="#00000000"
+        facedot_size="3"
         freestyle_face_mark="#00000000"
-        nurb_uline="#000000"
-        nurb_vline="#000000"
-        nurb_sel_uline="#000000"
-        nurb_sel_vline="#000000"
-        act_spline="#000000"
-        handle_free="#000000"
-        handle_auto="#000000"
-        handle_vect="#000000"
-        handle_sel_vect="#000000"
-        handle_align="#000000"
-        handle_sel_free="#000000"
-        handle_sel_auto="#000000"
-        handle_sel_align="#000000"
-        lastsel_point="#000000"
-        extra_edge_len="#000000"
-        extra_edge_angle="#000000"
-        extra_face_angle="#000000"
-        extra_face_area="#000000"
+        face_back="#00000000"
+        face_front="#00000000"
+        nurb_uline="#00000000"
+        nurb_vline="#00000000"
+        nurb_sel_uline="#00000000"
+        nurb_sel_vline="#00000000"
+        act_spline="#00000000"
+        handle_free="#00000000"
+        handle_auto="#00000000"
+        handle_vect="#00000000"
+        handle_sel_vect="#00000000"
+        handle_align="#00000000"
+        handle_sel_free="#00000000"
+        handle_sel_auto="#00000000"
+        handle_sel_align="#00000000"
+        lastsel_point="#00000000"
+        extra_edge_len="#00000000"
+        extra_edge_angle="#00000000"
+        extra_face_angle="#00000000"
+        extra_face_area="#00000000"
         editmesh_active="#00000000"
-        normal="#000000"
-        vertex_normal="#000000"
-        split_normal="#000000"
-        bone_pose="#000000"
-        bone_pose_active="#000000"
-        bone_solid="#000000"
-        bundle_solid="#000000"
-        camera_path="#000000"
-        skin_root="#000000"
-        view_overlay="#000000"
-        transform="#000000"
-        frame_current="#000000"
+        normal="#00000000"
+        vertex_normal="#00000000"
+        split_normal="#00000000"
+        bone_pose="#00000000"
+        bone_pose_active="#00000000"
+        bone_solid="#00000000"
+        bone_locked_weight="#00000000"
+        bundle_solid="#00000000"
+        camera_path="#00000000"
+        camera_passepartout="#00000000"
+        skin_root="#00000000"
+        view_overlay="#00000000"
+        transform="#00000000"
+        frame_current="#00000000"
         paint_curve_handle="#00000000"
         paint_curve_pivot="#00000000"
         outline_width="1"
-        object_origin_size="4"
+        object_origin_size="6"
         >
         <space>
           <ThemeSpaceGradient
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <gradients>
               <ThemeGradientColors
-                show_grad="FALSE"
-                high_gradient="#000000"
-                gradient="#000000"
+                background_type="SINGLE_COLOR"
+                high_gradient="#00000000"
+                gradient="#00000000"
                 >
               </ThemeGradientColors>
             </gradients>
@@ -453,55 +480,58 @@
     </view_3d>
     <graph_editor>
       <ThemeGraphEditor
-        grid="#000000"
-        frame_current="#000000"
+        grid="#00000000"
+        frame_current="#00000000"
         time_scrub_background="#00000000"
-        window_sliders="#000000"
-        channels_region="#000000"
-        dopesheet_channel="#000000"
-        dopesheet_subchannel="#000000"
-        channel_group="#000000"
-        active_channels_group="#000000"
+        time_marker_line="#00000000"
+        time_marker_line_selected="#00000000"
+        window_sliders="#00000000"
+        channels_region="#00000000"
+        dopesheet_channel="#00000000"
+        dopesheet_subchannel="#00000000"
+        channel_group="#00000000"
+        active_channels_group="#00000000"
         preview_range="#00000000"
-        vertex="#000000"
-        vertex_select="#000000"
-        vertex_size="1"
-        vertex_bevel="#000000"
-        vertex_unreferenced="#000000"
-        handle_free="#000000"
-        handle_auto="#000000"
-        handle_vect="#000000"
-        handle_sel_vect="#000000"
-        handle_align="#000000"
-        handle_sel_free="#000000"
-        handle_sel_auto="#000000"
-        handle_sel_align="#000000"
-        handle_auto_clamped="#000000"
-        handle_sel_auto_clamped="#000000"
-        lastsel_point="#000000"
-        handle_vertex="#000000"
-        handle_vertex_select="#000000"
-        handle_vertex_size="1"
+        vertex="#00000000"
+        vertex_select="#00000000"
+        vertex_active="#00000000"
+        vertex_size="6"
+        vertex_bevel="#00000000"
+        vertex_unreferenced="#00000000"
+        handle_free="#00000000"
+        handle_auto="#00000000"
+        handle_vect="#00000000"
+        handle_sel_vect="#00000000"
+        handle_align="#00000000"
+        handle_sel_free="#00000000"
+        handle_sel_auto="#00000000"
+        handle_sel_align="#00000000"
+        handle_auto_clamped="#00000000"
+        handle_sel_auto_clamped="#00000000"
+        lastsel_point="#00000000"
+        handle_vertex="#00000000"
+        handle_vertex_select="#00000000"
+        handle_vertex_size="5"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -515,10 +545,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#000000"
-            list_title="#000000"
-            list_text="#000000"
-            list_text_hi="#000000"
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -526,27 +556,28 @@
     </graph_editor>
     <file_browser>
       <ThemeFileBrowser
-        selected_file="#000000"
+        selected_file="#00000000"
+        row_alternate="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -562,45 +593,49 @@
     </file_browser>
     <nla_editor>
       <ThemeNLAEditor
-        grid="#000000"
-        view_sliders="#000000"
+        grid="#00000000"
+        view_sliders="#00000000"
+        dopesheet_channel="#00000000"
+        nla_track="#00000000"
         active_action="#00000000"
         active_action_unset="#00000000"
         preview_range="#00000000"
-        strips="#000000"
-        strips_selected="#000000"
-        transition_strips="#000000"
-        transition_strips_selected="#000000"
-        meta_strips="#000000"
-        meta_strips_selected="#000000"
-        sound_strips="#000000"
-        sound_strips_selected="#000000"
-        tweak="#000000"
-        tweak_duplicate="#000000"
+        strips="#00000000"
+        strips_selected="#00000000"
+        transition_strips="#00000000"
+        transition_strips_selected="#00000000"
+        meta_strips="#00000000"
+        meta_strips_selected="#00000000"
+        sound_strips="#00000000"
+        sound_strips_selected="#00000000"
+        tweak="#00000000"
+        tweak_duplicate="#00000000"
         keyframe_border="#00000000"
         keyframe_border_selected="#00000000"
-        frame_current="#000000"
+        frame_current="#00000000"
         time_scrub_background="#00000000"
+        time_marker_line="#00000000"
+        time_marker_line_selected="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -614,10 +649,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#000000"
-            list_title="#000000"
-            list_text="#000000"
-            list_text_hi="#000000"
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -625,11 +660,13 @@
     </nla_editor>
     <dopesheet_editor>
       <ThemeDopeSheet
-        grid="#000000"
-        frame_current="#000000"
+        grid="#00000000"
+        frame_current="#00000000"
         time_scrub_background="#00000000"
-        value_sliders="#000000"
-        view_sliders="#000000"
+        time_marker_line="#00000000"
+        time_marker_line_selected="#00000000"
+        value_sliders="#00000000"
+        view_sliders="#00000000"
         dopesheet_channel="#00000000"
         dopesheet_subchannel="#00000000"
         channels="#00000000"
@@ -638,16 +675,16 @@
         active_channels_group="#00000000"
         long_key="#00000000"
         long_key_selected="#00000000"
-        keyframe="#000000"
-        keyframe_selected="#000000"
-        keyframe_extreme="#000000"
-        keyframe_extreme_selected="#000000"
-        keyframe_breakdown="#000000"
-        keyframe_breakdown_selected="#000000"
-        keyframe_jitter="#000000"
-        keyframe_jitter_selected="#000000"
-        keyframe_movehold="#000000"
-        keyframe_movehold_selected="#000000"
+        keyframe="#00000000"
+        keyframe_selected="#00000000"
+        keyframe_extreme="#00000000"
+        keyframe_extreme_selected="#00000000"
+        keyframe_breakdown="#00000000"
+        keyframe_breakdown_selected="#00000000"
+        keyframe_jitter="#00000000"
+        keyframe_jitter_selected="#00000000"
+        keyframe_movehold="#00000000"
+        keyframe_movehold_selected="#00000000"
         keyframe_border="#00000000"
         keyframe_border_selected="#00000000"
         keyframe_scale_factor="1"
@@ -657,23 +694,23 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -687,10 +724,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#000000"
-            list_title="#000000"
-            list_text="#000000"
-            list_text_hi="#000000"
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -698,19 +735,23 @@
     </dopesheet_editor>
     <image_editor>
       <ThemeImageEditor
-        vertex="#000000"
-        vertex_select="#000000"
-        vertex_size="1"
-        vertex_bevel="#000000"
-        vertex_unreferenced="#000000"
+        grid="#00000000"
+        vertex="#00000000"
+        vertex_select="#00000000"
+        vertex_active="#00000000"
+        vertex_size="3"
+        vertex_bevel="#00000000"
+        vertex_unreferenced="#00000000"
         face="#00000000"
         face_select="#00000000"
-        face_dot="#000000"
-        facedot_size="1"
+        face_dot="#00000000"
+        facedot_size="3"
         freestyle_face_mark="#00000000"
+        face_back="#00000000"
+        face_front="#00000000"
         editmesh_active="#00000000"
-        wire_edit="#000000"
-        edge_select="#000000"
+        wire_edit="#00000000"
+        edge_select="#00000000"
         scope_back="#00000000"
         preview_stitch_face="#00000000"
         preview_stitch_edge="#00000000"
@@ -719,43 +760,42 @@
         preview_stitch_unstitchable="#00000000"
         preview_stitch_active="#00000000"
         uv_shadow="#00000000"
-        uv_others="#00000000"
-        frame_current="#000000"
-        metadatabg="#000000"
-        metadatatext="#000000"
-        handle_free="#000000"
-        handle_auto="#000000"
-        handle_align="#000000"
-        handle_sel_free="#000000"
-        handle_sel_auto="#000000"
-        handle_sel_align="#000000"
-        handle_auto_clamped="#000000"
-        handle_sel_auto_clamped="#000000"
-        handle_vertex="#000000"
-        handle_vertex_select="#000000"
-        handle_vertex_size="1"
+        frame_current="#00000000"
+        metadatabg="#00000000"
+        metadatatext="#00000000"
+        handle_free="#00000000"
+        handle_auto="#00000000"
+        handle_align="#00000000"
+        handle_sel_free="#00000000"
+        handle_sel_auto="#00000000"
+        handle_sel_align="#00000000"
+        handle_auto_clamped="#00000000"
+        handle_sel_auto_clamped="#00000000"
+        handle_vertex="#00000000"
+        handle_vertex_select="#00000000"
+        handle_vertex_size="5"
         paint_curve_handle="#00000000"
         paint_curve_pivot="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -771,44 +811,51 @@
     </image_editor>
     <sequence_editor>
       <ThemeSequenceEditor
-        grid="#000000"
-        window_sliders="#000000"
-        movie_strip="#000000"
-        movieclip_strip="#000000"
-        image_strip="#000000"
-        scene_strip="#000000"
-        audio_strip="#000000"
-        effect_strip="#000000"
-        transition_strip="#000000"
-        meta_strip="#000000"
-        text_strip="#000000"
-        frame_current="#000000"
+        grid="#00000000"
+        window_sliders="#00000000"
+        movie_strip="#00000000"
+        movieclip_strip="#00000000"
+        image_strip="#00000000"
+        scene_strip="#00000000"
+        audio_strip="#00000000"
+        effect_strip="#00000000"
+        color_strip="#00000000"
+        meta_strip="#00000000"
+        mask_strip="#00000000"
+        text_strip="#00000000"
+        active_strip="#00000000"
+        selected_strip="#00000000"
+        frame_current="#00000000"
         time_scrub_background="#00000000"
-        keyframe="#000000"
-        draw_action="#000000"
-        preview_back="#000000"
-        metadatabg="#000000"
-        metadatatext="#000000"
+        time_marker_line="#00000000"
+        time_marker_line_selected="#00000000"
+        keyframe="#00000000"
+        draw_action="#00000000"
+        preview_back="#00000000"
+        metadatabg="#00000000"
+        metadatatext="#00000000"
+        preview_range="#00000000"
+        row_alternate="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -820,29 +867,41 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSequenceEditor>
     </sequence_editor>
     <properties>
-      <ThemeProperties>
+      <ThemeProperties
+        match="#00000000"
+        active_modifier="#00000000"
+        >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -858,37 +917,38 @@
     </properties>
     <text_editor>
       <ThemeTextEditor
-        line_numbers_background="#000000"
-        selected_text="#000000"
-        cursor="#000000"
-        syntax_builtin="#000000"
-        syntax_symbols="#000000"
-        syntax_special="#000000"
-        syntax_preprocessor="#000000"
-        syntax_reserved="#000000"
-        syntax_comment="#000000"
-        syntax_string="#000000"
-        syntax_numbers="#000000"
+        line_numbers="#00000000"
+        line_numbers_background="#00000000"
+        selected_text="#00000000"
+        cursor="#00000000"
+        syntax_builtin="#00000000"
+        syntax_symbols="#00000000"
+        syntax_special="#00000000"
+        syntax_preprocessor="#00000000"
+        syntax_reserved="#00000000"
+        syntax_comment="#00000000"
+        syntax_string="#00000000"
+        syntax_numbers="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -904,50 +964,55 @@
     </text_editor>
     <node_editor>
       <ThemeNodeEditor
-        node_selected="#000000"
-        node_active="#000000"
-        wire="#000000"
-        wire_inner="#000000"
-        wire_select="#000000"
-        selected_text="#000000"
+        grid="#00000000"
+        node_selected="#00000000"
+        node_active="#00000000"
+        wire="#00000000"
+        wire_inner="#00000000"
+        wire_select="#00000000"
+        selected_text="#00000000"
         node_backdrop="#00000000"
-        converter_node="#000000"
-        color_node="#000000"
+        converter_node="#00000000"
+        color_node="#00000000"
         group_node="#00000000"
-        group_socket_node="#000000"
+        group_socket_node="#00000000"
         frame_node="#00000000"
-        matte_node="#000000"
-        distor_node="#000000"
-        noodle_curving="0"
-        input_node="#000000"
-        output_node="#000000"
-        filter_node="#000000"
-        vector_node="#000000"
-        texture_node="#000000"
-        shader_node="#000000"
-        script_node="#000000"
-        pattern_node="#000000"
-        layout_node="#000000"
+        matte_node="#00000000"
+        distor_node="#00000000"
+        noodle_curving="4"
+        grid_levels="3"
+        dash_alpha="1"
+        input_node="#00000000"
+        output_node="#00000000"
+        filter_node="#00000000"
+        vector_node="#00000000"
+        texture_node="#00000000"
+        shader_node="#00000000"
+        script_node="#00000000"
+        pattern_node="#00000000"
+        layout_node="#00000000"
+        geometry_node="#00000000"
+        attribute_node="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -961,10 +1026,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#000000"
-            list_title="#000000"
-            list_text="#000000"
-            list_text_hi="#000000"
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -972,32 +1037,33 @@
     </node_editor>
     <outliner>
       <ThemeOutliner
-        match="#000000"
-        selected_highlight="#000000"
-        selected_object="#000000"
-        active_object="#000000"
+        match="#00000000"
+        selected_highlight="#00000000"
+        active="#00000000"
+        selected_object="#00000000"
+        active_object="#00000000"
         edited_object="#00000000"
         row_alternate="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1013,36 +1079,40 @@
     </outliner>
     <info>
       <ThemeInfo
-        info_selected="#000000"
-        info_selected_text="#000000"
-        info_error="#000000"
-        info_error_text="#000000"
-        info_warning="#000000"
-        info_warning_text="#000000"
-        info_info="#000000"
-        info_info_text="#000000"
-        info_debug="#000000"
-        info_debug_text="#000000"
+        info_selected="#00000000"
+        info_selected_text="#00000000"
+        info_error="#00000000"
+        info_error_text="#00000000"
+        info_warning="#00000000"
+        info_warning_text="#00000000"
+        info_info="#00000000"
+        info_info_text="#00000000"
+        info_debug="#00000000"
+        info_debug_text="#00000000"
+        info_property="#00000000"
+        info_property_text="#00000000"
+        info_operator="#00000000"
+        info_operator_text="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1060,23 +1130,23 @@
       <ThemePreferences>
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1092,32 +1162,32 @@
     </preferences>
     <console>
       <ThemeConsole
-        line_output="#000000"
-        line_input="#000000"
-        line_info="#000000"
-        line_error="#000000"
-        cursor="#000000"
+        line_output="#00000000"
+        line_input="#00000000"
+        line_info="#00000000"
+        line_error="#00000000"
+        cursor="#00000000"
         select="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1133,51 +1203,56 @@
     </console>
     <clip_editor>
       <ThemeClipEditor
-        marker_outline="#000000"
-        marker="#000000"
-        active_marker="#000000"
-        selected_marker="#000000"
-        disabled_marker="#000000"
-        locked_marker="#000000"
-        path_before="#000000"
-        path_after="#000000"
-        frame_current="#000000"
+        grid="#00000000"
+        marker_outline="#00000000"
+        marker="#00000000"
+        active_marker="#00000000"
+        selected_marker="#00000000"
+        disabled_marker="#00000000"
+        locked_marker="#00000000"
+        path_before="#00000000"
+        path_after="#00000000"
+        path_keyframe_before="#00000000"
+        path_keyframe_after="#00000000"
+        frame_current="#00000000"
         time_scrub_background="#00000000"
-        strips="#000000"
-        strips_selected="#000000"
-        metadatabg="#000000"
-        metadatatext="#000000"
-        handle_free="#000000"
-        handle_auto="#000000"
-        handle_align="#000000"
-        handle_sel_free="#000000"
-        handle_sel_auto="#000000"
-        handle_sel_align="#000000"
-        handle_auto_clamped="#000000"
-        handle_sel_auto_clamped="#000000"
-        handle_vertex="#000000"
-        handle_vertex_select="#000000"
-        handle_vertex_size="1"
+        time_marker_line="#00000000"
+        time_marker_line_selected="#00000000"
+        strips="#00000000"
+        strips_selected="#00000000"
+        metadatabg="#00000000"
+        metadatatext="#00000000"
+        handle_free="#00000000"
+        handle_auto="#00000000"
+        handle_align="#00000000"
+        handle_sel_free="#00000000"
+        handle_sel_auto="#00000000"
+        handle_sel_align="#00000000"
+        handle_auto_clamped="#00000000"
+        handle_sel_auto_clamped="#00000000"
+        handle_vertex="#00000000"
+        handle_vertex_select="#00000000"
+        handle_vertex_size="5"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1191,10 +1266,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#000000"
-            list_title="#000000"
-            list_text="#000000"
-            list_text_hi="#000000"
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -1204,23 +1279,23 @@
       <ThemeTopBar>
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1238,23 +1313,23 @@
       <ThemeStatusBar>
         <space>
           <ThemeSpaceGeneric
-            back="#000000"
-            title="#000000"
-            text="#000000"
-            text_hi="#000000"
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
             header="#00000000"
-            header_text="#000000"
-            header_text_hi="#000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
             button="#00000000"
-            button_title="#000000"
-            button_text="#000000"
-            button_text_hi="#000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
             navigation_bar="#00000000"
             execution_buts="#00000000"
-            tab_active="#000000"
-            tab_inactive="#000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
             tab_back="#00000000"
-            tab_outline="#000000"
+            tab_outline="#00000000"
             >
             <panelcolors>
               <ThemePanelColors
@@ -1268,182 +1343,296 @@
         </space>
       </ThemeStatusBar>
     </statusbar>
+    <spreadsheet>
+      <ThemeSpreadsheet
+        row_alternate="#00000000"
+        >
+        <space>
+          <ThemeSpaceGeneric
+            back="#00000000"
+            title="#00000000"
+            text="#00000000"
+            text_hi="#00000000"
+            header="#00000000"
+            header_text="#00000000"
+            header_text_hi="#00000000"
+            button="#00000000"
+            button_title="#00000000"
+            button_text="#00000000"
+            button_text_hi="#00000000"
+            navigation_bar="#00000000"
+            execution_buts="#00000000"
+            tab_active="#00000000"
+            tab_inactive="#00000000"
+            tab_back="#00000000"
+            tab_outline="#00000000"
+            >
+            <panelcolors>
+              <ThemePanelColors
+                header="#00000000"
+                back="#00000000"
+                sub_back="#00000000"
+                >
+              </ThemePanelColors>
+            </panelcolors>
+          </ThemeSpaceGeneric>
+        </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#00000000"
+            list_title="#00000000"
+            list_text="#00000000"
+            list_text_hi="#00000000"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
+      </ThemeSpreadsheet>
+    </spreadsheet>
     <bone_color_sets>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#000000"
-        select="#000000"
-        active="#000000"
+        normal="#00000000"
+        select="#00000000"
+        active="#00000000"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
     </bone_color_sets>
+    <collection_color>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#00000000"
+        >
+      </ThemeCollectionColor>
+    </collection_color>
+    <strip_color>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#00000000"
+        >
+      </ThemeStripColor>
+    </strip_color>
   </Theme>
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
-        points="6"
-        font_kerning_style="UNFITTED"
+        points="0"
         shadow="0"
         shadow_offset_x="0"
-        shadow_offset_y="0"
-        shadow_alpha="0"
+        shadow_offset_y="-1"
+        shadow_alpha="1"
         shadow_value="0"
         >
       </ThemeFontStyle>
     </panel_title>
     <widget_label>
       <ThemeFontStyle
-        points="6"
-        font_kerning_style="UNFITTED"
+        points="0"
         shadow="0"
         shadow_offset_x="0"
-        shadow_offset_y="0"
-        shadow_alpha="0"
+        shadow_offset_y="-1"
+        shadow_alpha="1"
         shadow_value="0"
         >
       </ThemeFontStyle>
     </widget_label>
     <widget>
       <ThemeFontStyle
-        points="6"
-        font_kerning_style="UNFITTED"
+        points="0"
         shadow="0"
         shadow_offset_x="0"
-        shadow_offset_y="0"
-        shadow_alpha="0"
+        shadow_offset_y="-1"
+        shadow_alpha="1"
         shadow_value="0"
         >
       </ThemeFontStyle>
