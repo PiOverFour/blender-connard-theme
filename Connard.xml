@@ -316,21 +316,6 @@
             >
           </ThemeWidgetColors>
         </wcol_list_item>
-        <wcol_view_item>
-          <ThemeWidgetColors
-            outline="#00000000"
-            inner="#00000000"
-            inner_sel="#00000000"
-            item="#00000000"
-            text="#00000000"
-            text_sel="#00000000"
-            show_shaded="FALSE"
-            shadetop="0"
-            shadedown="0"
-            roundness="0.0"
-            >
-          </ThemeWidgetColors>
-        </wcol_view_item>
         <wcol_state>
           <ThemeWidgetStateColors
             inner_anim="#00000000"
@@ -370,6 +355,7 @@
         clipping_border_3d="#00000000"
         wire="#00000000"
         wire_edit="#00000000"
+        edge_width="1"
         gp_vertex="#00000000"
         gp_vertex_select="#00000000"
         gp_vertex_size="3"
@@ -383,11 +369,11 @@
         speaker="#00000000"
         vertex="#00000000"
         vertex_select="#00000000"
-        vertex_active="#00000000"
         vertex_size="3"
         vertex_bevel="#00000000"
         vertex_unreferenced="#00000000"
         edge_select="#00000000"
+        edge_mode_select="#00000000"
         edge_seam="#00000000"
         edge_sharp="#00000000"
         edge_crease="#00000000"
@@ -396,9 +382,11 @@
         freestyle_edge_mark="#00000000"
         face="#00000000"
         face_select="#00000000"
+        face_mode_select="#00000000"
         face_dot="#00000000"
         facedot_size="3"
         freestyle_face_mark="#00000000"
+        face_retopology="#00000000"
         face_back="#00000000"
         face_front="#00000000"
         nurb_uline="#00000000"
@@ -476,6 +464,13 @@
             </panelcolors>
           </ThemeSpaceGradient>
         </space>
+        <asset_shelf>
+          <ThemeAssetShelf
+            header_back="#00000000"
+            back="#00000000"
+            >
+          </ThemeAssetShelf>
+        </asset_shelf>
       </ThemeView3D>
     </view_3d>
     <graph_editor>
@@ -596,6 +591,7 @@
         grid="#00000000"
         view_sliders="#00000000"
         dopesheet_channel="#00000000"
+        dopesheet_subchannel="#00000000"
         nla_track="#00000000"
         active_action="#00000000"
         active_action_unset="#00000000"
@@ -685,12 +681,15 @@
         keyframe_jitter_selected="#00000000"
         keyframe_movehold="#00000000"
         keyframe_movehold_selected="#00000000"
+        keyframe_generated="#00000000"
+        keyframe_generated_selected="#00000000"
         keyframe_border="#00000000"
         keyframe_border_selected="#00000000"
         keyframe_scale_factor="1"
         summary="#00000000"
         preview_range="#00000000"
         interpolation_line="#00000000"
+        simulated_frames="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
@@ -738,19 +737,21 @@
         grid="#00000000"
         vertex="#00000000"
         vertex_select="#00000000"
-        vertex_active="#00000000"
         vertex_size="3"
         vertex_bevel="#00000000"
         vertex_unreferenced="#00000000"
         face="#00000000"
         face_select="#00000000"
+        face_mode_select="#00000000"
         face_dot="#00000000"
         facedot_size="3"
         freestyle_face_mark="#00000000"
+        face_retopology="#00000000"
         face_back="#00000000"
         face_front="#00000000"
         editmesh_active="#00000000"
         wire_edit="#00000000"
+        edge_width="1"
         edge_select="#00000000"
         scope_back="#00000000"
         preview_stitch_face="#00000000"
@@ -807,6 +808,13 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <asset_shelf>
+          <ThemeAssetShelf
+            header_back="#00000000"
+            back="#00000000"
+            >
+          </ThemeAssetShelf>
+        </asset_shelf>
       </ThemeImageEditor>
     </image_editor>
     <sequence_editor>
@@ -819,6 +827,7 @@
         scene_strip="#00000000"
         audio_strip="#00000000"
         effect_strip="#00000000"
+        transition_strip="#00000000"
         color_strip="#00000000"
         meta_strip="#00000000"
         mask_strip="#00000000"
@@ -830,6 +839,15 @@
         time_marker_line="#00000000"
         time_marker_line_selected="#00000000"
         keyframe="#00000000"
+        keyframe_selected="#00000000"
+        keyframe_breakdown="#00000000"
+        keyframe_breakdown_selected="#00000000"
+        keyframe_movehold="#00000000"
+        keyframe_movehold_selected="#00000000"
+        keyframe_generated="#00000000"
+        keyframe_generated_selected="#00000000"
+        keyframe_border="#00000000"
+        keyframe_border_selected="#00000000"
         draw_action="#00000000"
         preview_back="#00000000"
         metadatabg="#00000000"
@@ -993,6 +1011,8 @@
         layout_node="#00000000"
         geometry_node="#00000000"
         attribute_node="#00000000"
+        simulation_zone="#00000000"
+        repeat_zone="#00000000"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1606,7 +1626,8 @@
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
-        points="0"
+        points="6"
+        character_weight="100"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="-1"
@@ -1617,7 +1638,8 @@
     </panel_title>
     <widget_label>
       <ThemeFontStyle
-        points="0"
+        points="6"
+        character_weight="100"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="-1"
@@ -1628,7 +1650,8 @@
     </widget_label>
     <widget>
       <ThemeFontStyle
-        points="0"
+        points="6"
+        character_weight="100"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="-1"

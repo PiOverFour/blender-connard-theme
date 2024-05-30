@@ -16,6 +16,6 @@ name, such as _tmp_
 2. The theme will be saved in your Blender directory, under `blender/x.xx/scripts/presets/interface_theme/tmp.xml`.
 2. In a Unix-like shell, `cd` into that directory and run:
 ``` sh
-sed -e 's/"#[0-9a-f]*"/"#00000000"/g' -e 's/shadow="[0-9]"/shadow="0"/g' -e 's/points="[0-9]*"/points="0"/g' -e 's/roundness="[0-9\.]*"/roundness="0.0"/g' -e 's/\(shadetop\|shadedown\).*/\1="0"/g' -e 's/alpha="0.5"/alpha="1"/g' -e 's/background_type=".*"/background_type="SINGLE_COLOR"/g' tmp.xml > Connard.xml
+sed -e 's/"#[0-9a-f]*"/"#00000000"/g' -e 's/shadow="[0-9]"/shadow="0"/g' -e 's/points="[0-9]*"/points="6"/g' -e 's/roundness="[0-9\.]*"/roundness="0.0"/g' -e 's/\(shadetop\|shadedown\).*/\1="0"/g' -e 's/alpha="0.5"/alpha="1"/g' -e 's/background_type=".*"/background_type="SINGLE_COLOR"/g' -e 's/character_weight="[0-9.]*"/character_weight="100"/g' tmp.xml > Connard.xml
 rm tmp.xml
 ```
